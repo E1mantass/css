@@ -1,0 +1,122 @@
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+
+.header{
+    width: 1140px;
+    height: 63px;
+    flex-shrink: 0; 
+    position: absolute;
+    top: 41px;
+    left: 150px;
+}
+.main_menu{
+    width: auto;
+    height: 30px;
+    align-items: center;
+    word-spacing: 15px;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.logo{
+    width: 258px;
+    height: 63px;
+    float: left;
+}
+.logo h1{
+    width: 161px;
+    height: 34px;
+    flex-shrink: 0; 
+    color: #091156;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.4px; 
+    text-align: right;
+    display: inline-block;
+
+}
+.header button{
+    border-radius: 50px;
+    background: #FF64AE; 
+}
+/*logo*/
+
+/*navigation*/
+nav{
+}
+nav ul{
+    padding: 0px;
+    word-spacing: 40px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #8B8B8B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.6px; 
+}
+nav ul a{
+    color: black;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.6px; 
+    text-decoration: none;
+}
+/*Contact Title*/
+.contact{
+    height:829px;
+}
+ 
+}
+h1{
+    color: #FF64AE;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 20px */ 
+}
+h2{
+    width: 615px;
+    height: 104px; 
+    color: #091156;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 45px */ 
+    float: left;
+}
+h3{
+    width: 407px;
+    height: 72px;
+    color: #8B8B8B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.6px; 
+    float: right;
+    margin-top: 35px;
+}
+/*Contact*/
+.contact img{
+
+}
