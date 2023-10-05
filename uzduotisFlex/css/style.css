@@ -1,0 +1,52 @@
+html{
+    height: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: lightskyblue;
+    text-align: center;
+    height: 100px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
+    margin:0 auto;
+    width:1100px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    background-color: teal;
+}
+div.Hero{
+    display:flex;
+    background-color: pink;
+    width:40%;
+    flex-wrap: wrap;
+}
+div.Sidebar{
+    background-color: red;
+    display:flex;
+    width:40%;
+    flex-wrap: wrap;
+}
+div.Main{
+    background-color: blue;
+    max-height: 1000px;
+    display:flex;
+    height:300px;
+    width:50%;
+    flex-wrap: wrap;
+}
+div.Extra{
+    background-color: blueviolet;
+    display:flex;
+    width:60%;
+    height:200px;
+    flex-wrap: wrap;
+
+}
