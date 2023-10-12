@@ -1,0 +1,117 @@
+.container{
+    margin: 0 auto;
+    background: rgb(147,226,154);
+background: linear-gradient(90deg, rgba(147,226,154,1) 0%, rgba(43,187,19,0.5004202364539565) 35%, rgba(9,244,42,1) 95%);
+    width: 1440px;
+    height: 900; 
+}
+nav{
+    display: flex;
+    margin-top:24px;
+    justify-content: center;
+}
+/*Button*/
+.button-left{
+    width:80px;
+    height:80px;
+    border-radius: 30px;
+    background: var(--osler-gray-white, #FFF);
+    box-shadow: 0px 8px 16px 0px rgba(47, 60, 51, 0.05);
+    padding: 28px;
+}
+.button-middle{
+    width:80px;
+    height:80px;
+    border-radius: 30px;
+    background: var(--healing-green-50, #84CC16);
+    box-shadow: 0px 16px 32px 0px rgba(132, 204, 22, 0.25);
+}
+.button-right{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: var(--osler-gray-white, #FFF);
+    box-shadow: 0px 8px 16px 0px rgba(47, 60, 51, 0.05);
+    padding: 28px;
+}
+/*middle*/
+.middle{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+.text{
+    margin-top:91px;
+    margin-left:191px;
+    width:35%;
+}
+h1{
+    color: var(--osler-gray-80, #2F3C33);
+    font-family: Nunito;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 68px; /* 113.333% */
+    letter-spacing: -1.8px; 
+}
+p{
+    color: var(--osler-gray-60, #647067);
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 38.4px */
+    letter-spacing: -0.24px; 
+}
+.text-bottom{
+    display: flex;
+}
+.trusted{
+    flex-grow: 1;
+}
+.tech{
+
+}
+.download{
+    margin-top: 40px;
+    border-radius: 24px;
+    background: var(--osler-gray-80, #2F3C33);
+    display: flex;
+    height: 64px;
+    width: 280px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px; 
+
+    color: var(--osler-gray-white, #FFF);
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.36px;     
+}
+/*Frame*/
+.frame{
+    margin-left: 80px;
+    width: 461.625px;
+    height: 939px;
+    flex-shrink: 0; 
+    display: flex;
+    padding-bottom: 100px;
+}
+.bottom{
+
+}
+.gradiant{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
+    width: 1440px;
+    height: 149px;
+}  
+/*Universal*/
+.flex{
+    display: flex;
+}
