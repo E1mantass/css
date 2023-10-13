@@ -1,9 +1,12 @@
 .container{
     margin: 0 auto;
-    background: rgb(147,226,154);
-background: linear-gradient(90deg, rgba(147,226,154,1) 0%, rgba(43,187,19,0.5004202364539565) 35%, rgba(9,244,42,1) 95%);
     width: 1440px;
-    height: 900; 
+    height: 100%; 
+    background: url(/img/BG.svg);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 nav{
     display: flex;
@@ -41,10 +44,11 @@ nav{
     display: flex;
     flex-direction: row;
     height: 700px;
+    flex-wrap: wrap;
 }
 .text{
-    margin-top:91px;
-    margin-left:191px;
+    padding-top:91px;
+    margin-left:120px;
     width:35%;
 }
 h1{
@@ -94,21 +98,45 @@ p{
     line-height: normal;
     letter-spacing: -0.36px;     
 }
+/*Cards*/
+.floating-card1{
+    padding: 16px;
+    gap: 10px; 
+    border-radius: 32px;
+    background: var(--healing-green-50, #84CC16);
+    box-shadow: 0px 16px 32px 0px rgba(132, 204, 22, 0.25);
+    position: absolute;
+    top: 380px;
+    left: 1130px;
+    height: 197px;
+    width: 155px;
+}
+.floating-card2{
+    display: flex;
+    width: 158px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 32px;
+    background: var(--osler-gray-white, #FFF);
+    position: absolute;
+    top: 600px;
+    left: 1130px;
+}
 /*Frame*/
 .frame{
-    margin-left: 80px;
-    width: 461.625px;
-    height: 939px;
+    padding-left: 47px;
     flex-shrink: 0; 
     display: flex;
-    padding-bottom: 100px;
+
 }
+/*Bottom*/
 .bottom{
 
 }
 .gradiant{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
-    width: 1440px;
     height: 149px;
 }  
 /*Universal*/
